@@ -5,7 +5,7 @@ export const GET = async (request) => {
   const queryParameters = request.nextUrl.searchParams;
   let ids = queryParameters.get("id");
   let startDate = queryParameters.get("startdate");
-  let endDate = queryParameters.get("endDate");
+  let endDate = queryParameters.get("enddate");
   if (ids) {
     ids = ids.split(",");
     ids = ids.map((id) => parseInt(id));
