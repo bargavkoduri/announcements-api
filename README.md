@@ -34,7 +34,7 @@ To access the api
                   when all three parameters are not mentioned returns all the announcements 
                 </li>
                 <li>
-                  When id is not mentioned and both start and end dates are mentioned returns all announcements within startdate and enddate
+                  When id is not mentioned and both start and end dates are mentioned returns all announcements >= startdate and <= enddate
                 </li>
                 <li>
                   When either startdate or enddate is mentioned returns all announcements >= startdate or <= enddaate
