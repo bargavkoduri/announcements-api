@@ -15,8 +15,11 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Create a .env file with below fields
+<br/>
+```
 MONGO_URL = 
-DB_NAME = 
+DB_NAME =
+```
 
 Run the script.py file to read data from the file and persist it into MongoDB
 
