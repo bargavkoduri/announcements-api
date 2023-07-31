@@ -16,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Create a .env file with below fields
 <br/>
+MONGO_URL (connection url for Mongo Project) 
+<br/>
+DB_NAME ( Name of the database) 
 ```
 MONGO_URL = 
 DB_NAME =
