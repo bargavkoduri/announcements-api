@@ -35,7 +35,7 @@ To access the api
         <tbody>
           <tr>
             <td>
-              /api/announcements?id=id1,id2&startdate='YYYY-MM-DD'&enddate='YYYY-MM-DD'
+              /api/announcements?id=id1,id2&startdate=YYYY-MM-DD&enddate=YYYY-MM-DD
             </td>
             <td>
               <ul>
@@ -59,7 +59,7 @@ To access the api
           </tr>
           <tr>
             <td>
-              /api/announcements/critical?id=id1,id2&startdate='YYYY-MM-DD'&enddate='YYYY-MM-DD'
+              /api/announcements/critical?id=id1,id2&startdate=YYYY-MM-DD&enddate=YYYY-MM-DD
             </td>
             <td>
               Returns announcements as mentioned above.
