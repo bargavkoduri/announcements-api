@@ -14,6 +14,12 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Create a .env file with below fields
+MONGO_URL = 
+DB_NAME = 
+
+Run the script.py file to read data from the file and persist it into MongoDB
+
 To access the api
  <table class="table table-striped">
         <thead>
@@ -64,3 +70,6 @@ To access the api
           </tr>
         </tbody>
  </table>
+
+
+ Vercel Deployment :- https://announcements-seven.vercel.app/
