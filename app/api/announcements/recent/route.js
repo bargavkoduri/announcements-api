@@ -4,7 +4,7 @@ import Announcements from "@/models/announcements";
 export const GET = async (request) => {
   let currDate = new Date();
   let startDate = new Date();
-  startDate.setHours(startDate.getHours() - 96);
+  startDate.setHours(startDate.getHours() - 48);
   try {
     await connectToDB();
     let announcements = await Announcements.find({
